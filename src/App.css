@@ -1,0 +1,105 @@
+
+.container {
+  width: 912px;
+  margin: 0 auto;
+}
+
+.list_header {
+  padding-top: 30px;
+  color: #8B8B8B;
+}
+
+.user_row, .header_row {
+  background-color: white;
+  border-bottom: 1px solid #ADB5BD;
+}
+
+.add_row {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.user_table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user_prop_column, .user_prop_header {
+  width: 27%;
+  text-align: left;
+}
+
+.user_prop_header p {
+  margin-left: 20px;
+}
+
+.header_row { 
+  height: 48px;
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.btn {
+  font-size: 16px; 
+  width: 70px;
+  height: 40px;
+  margin: 16px 10px 16px 0;
+  border: none;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: #07f;
+  font-weight: 500;
+}
+
+.user_input {
+  padding: 0 0 0 2px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 38px;
+  margin: 14px 10px 14px 18px;
+  border: 1px solid #ADB5BD;
+}
+
+.edit, .delete {
+  height: 24px;
+  width: 24px;
+  margin: 16px 50px 16px 0;
+}
+
+.edit, .delete, .user_prop_header p:hover {
+  cursor: pointer;
+}
+
+html {
+  font-size: 16px;
+}
+
+.App {
+  background-color: #F1F1F1;
+}
+
+.user_prop {
+  margin: 24px 0 24px 20px;
+  color: #505050;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.header {
+  height: 96px;
+  background-color: #ADB5BD;
+}
+
+.logo {
+  width: 912px;
+  margin: 0 auto;
+  color: white;
+  font-size: 30px;
+  padding: 32px; 
+}
+
