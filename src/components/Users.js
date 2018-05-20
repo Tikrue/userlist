@@ -27,7 +27,7 @@ class Users extends Component {
 
     let canAdd = false;
   
-    if(form.name != '' && form.email != '') {
+    if(form.name !== '' && form.email !== '') {
       this.setState(prevState => ({
         users: [...prevState.users, user]
       }))
