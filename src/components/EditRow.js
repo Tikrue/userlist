@@ -21,7 +21,7 @@ class EditRow extends Component {
       <tr className="user_row">
 
         {columns.map((val) => {
-          return <td key={val} class="user_props_column">
+          return <td key={val} className="user_props_column">
             <input
               className="user_input"
               name={val} 
