@@ -43,8 +43,8 @@ const UserList = (props) => {
               user={user}
               key={user.id}
               columns={columns}
-              onRowEdit={e => props.onRowEdit(user)}
-              onRowDel={e => props.onRowDel(user)}
+              onRowEdit={() => props.onRowEdit(user)}
+              onRowDel={() => props.onRowDel(user)}
             />
           }
           else {
@@ -53,7 +53,7 @@ const UserList = (props) => {
               key={user.id}
               columns={columns}
               onRowSave={props.onRowSave}
-              onEditCancel={e => props.onEditCancel(user)}
+              onEditCancel={() => props.onEditCancel(user)}
             />  
           }   
         })}
